@@ -1,37 +1,37 @@
 flagrow-upload:
     forum:
         buttons:
-            attach: Attach
+            attach: Lampirkan
         states:
             loading: Loading
-            success: Success
+            success: Sukses
             error: Error
     admin:
         permissions:
-            upload_label: Upload files
+            upload_label: Upload file
         upload_methods:
-            local: Local
+            local: Lokal
             aws-s3: Amazon S3
             imgur: Imgur
         labels:
-            upload_method: Upload method
+            upload_method: Metode upload
             preferences:
-                title: General preferences
-                max_file_size: Maximum file size (in kilobytes)
-                mime_types_allowed: Specify the mime types you like to allow in your application using a regular expression
+                title: Pilihan umum
+                max_file_size: Ukuran file maksimum (di kilobytes)
+                mime_types_allowed: Tentukan mime types yang anda izinkan di aplikasi menggunakan regular expression
             resize:
-                title: Image resize
-                toggle: Resize images
-                max_width: Maximum image width
-                max_height: Maximum image height
+                title: Pengubahan ukuran gambar
+                toggle: Ubah ukuran gambar
+                max_width: Lebar maksimum gambar
+                max_height: Tinggi maksimum gambar
             watermark:
-                title: Watermark images
-                toggle: Watermark images
-                position: Watermark position
-                file: Upload your watermark image
+                title: Watermark di gambar
+                toggle: Watermark di gambar
+                position: Posisi watermark
+                file: Upload gambar watermark anda
             local:
-                title: Local storage settings
-                cdn_url: Content Delivery URL (prefixes files)
+                title: Setting penyimpanan lokal
+                cdn_url: URL Penyampaian Konten (awalan file)
             imgur:
                 title: Imgur image storage settings
                 client_id: Imgur client ID
